@@ -1,0 +1,8 @@
+// Find all books in a specific genre (e.g., "Fiction"):
+db.books.find({ genre: "Fiction" })
+
+// Find books published after a certain year (e.g., after 2004):
+db.books.find({ published_year: { $gt: 2004 } })
+
+// Find books by a specific author (e.g., "George Orwell"):
+db.books.find({ author: "George Orwell" })
