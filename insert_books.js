@@ -157,7 +157,7 @@ async function insertBooks() {
 
     // Insert the books
     const result = await collection.insertMany(books);
-    console.log(`${result.insertedCount} books were successfully inserted into the database`);
+    console.log(`books were successfully inserted into the database`);
 
     // Display the inserted books
     console.log('\nInserted books:');
